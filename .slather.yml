@@ -1,0 +1,6 @@
+# .slather.yml
+
+coverage_service: cobertura_xml
+xcodeproj: doghero-test.xcodeproj
+workspace: doghero-test.xcworkspace
+scheme: doghero-test
