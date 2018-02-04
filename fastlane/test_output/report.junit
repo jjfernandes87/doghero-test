@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='doghero-UnitTests.xctest' tests='9' failures='0'>
+  <testsuite name='doghero_UITests.doghero_UITests' tests='2' failures='0'>
+    <testcase classname='doghero_UITests.doghero_UITests' name='testCountTableElements' time='4.073'/>
+    <testcase classname='doghero_UITests.doghero_UITests' name='testShowRootScreen' time='6.014'/>
+  </testsuite>
+  <testsuite name='doghero_UnitTests.doghero_UnitTests' tests='7' failures='0'>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testButtonExtension' time='0.002'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testButtonSelectedExtension' time='0.001'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testDoubleExtension' time='0.001'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testHeroGroup' time='0.010'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testHeroObj' time='0.001'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testMyHeroesFavorites' time='0.001'/>
+    <testcase classname='doghero_UnitTests.doghero_UnitTests' name='testMyHeroesRecents' time='0.001'/>
+  </testsuite>
+</testsuites>

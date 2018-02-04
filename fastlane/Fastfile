@@ -1,0 +1,15 @@
+default_platform(:ios)
+
+platform :ios do
+  
+	desc "Scan"
+	lane :test do
+		scan(clean: true, code_coverage: true, scheme: "doghero-test")
+	end
+
+	desc "Runs Coverage"	
+	lane :coverage do
+		slather(scheme: "doghero-test", workspace: "doghero-test.xcworkspace", html: true, show: true)
+	end
+
+end
