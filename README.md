@@ -22,6 +22,8 @@ cd path/doghero-test
 fastlane tests
 ```
 
+or
+
 ```
 cd path/doghero-test
 fastlane coverage
