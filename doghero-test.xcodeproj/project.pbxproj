@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0536F40D65A3AFE1D34565D8 /* Pods_doghero_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8DE65DC5001736BF191C72 /* Pods_doghero_UnitTests.framework */; };
+		2DCA6B0D728AEC6D0B4BAEE3 /* Pods_doghero_test_doghero_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE498081E7A46486C142B83B /* Pods_doghero_test_doghero_UITests.framework */; };
+		86028FE2202653AA0048C4BB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86028FE1202653AA0048C4BB /* Button.swift */; };
+		86028FEA2026558E0048C4BB /* doghero_UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86028FE92026558E0048C4BB /* doghero_UnitTests.swift */; };
+		86028FF820265DAB0048C4BB /* doghero_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86028FF720265DAB0048C4BB /* doghero_UITests.swift */; };
+		864601B52026051F006ED267 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864601B42026051F006ED267 /* GridViewController.swift */; };
+		864601B72026059E006ED267 /* MyheroesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864601B62026059E006ED267 /* MyheroesPresenter.swift */; };
+		864601B9202605AB006ED267 /* GridPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864601B8202605AB006ED267 /* GridPresenter.swift */; };
+		864601BB20260788006ED267 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864601BA20260788006ED267 /* MainRouter.swift */; };
+		86BA06BC20260D8300DE7B91 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA06BB20260D8300DE7B91 /* Hero.swift */; };
+		86BA06BF2026110100DE7B91 /* MyHeroesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA06BE2026110100DE7B91 /* MyHeroesInteractor.swift */; };
+		86BA06C2202615A700DE7B91 /* CardHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA06C1202615A700DE7B91 /* CardHeroCell.swift */; };
+		86BA06C620264C1800DE7B91 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA06C520264C1800DE7B91 /* Double.swift */; };
+		86BA06C820264E5600DE7B91 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA06C720264E5600DE7B91 /* UIView.swift */; };
+		A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F189201CF66900B5164F /* AppDelegate.swift */; };
+		A259F18F201CF66900B5164F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A259F18D201CF66900B5164F /* Main.storyboard */; };
+		A259F191201CF66900B5164F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A259F190201CF66900B5164F /* Assets.xcassets */; };
+		A259F194201CF66900B5164F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A259F192201CF66900B5164F /* LaunchScreen.storyboard */; };
+		A259F19D201CF69F00B5164F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F19C201CF69F00B5164F /* UIImage.swift */; };
+		A259F1A0201CF6EA00B5164F /* MyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F19F201CF6EA00B5164F /* MyHeroes.swift */; };
+		A259F1A2201CF76400B5164F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259F1A1201CF76400B5164F /* JSONParser.swift */; };
+		DF2B538A1E8795FB3B77B32C /* Pods_doghero_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12B9C85FE1D8E629521D569 /* Pods_doghero_test.framework */; };
+		F5DE12171BC1FA66BC6CB080 /* Pods_doghero_test_doghero_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F45FDE756A2D3331DE792C /* Pods_doghero_test_doghero_UnitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86028FEC2026558E0048C4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259F17E201CF66900B5164F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A259F185201CF66900B5164F;
+			remoteInfo = "doghero-test";
+		};
+		86028FFA20265DAB0048C4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259F17E201CF66900B5164F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A259F185201CF66900B5164F;
+			remoteInfo = "doghero-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1454F7B37CD708A24AF0868B /* Pods-doghero-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test/Pods-doghero-test.debug.xcconfig"; sourceTree = "<group>"; };
+		217C6DEDFD05CF3E3AA1CF7F /* Pods-doghero-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-UnitTests/Pods-doghero-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		41F45FDE756A2D3331DE792C /* Pods_doghero_test_doghero_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doghero_test_doghero_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86028FE1202653AA0048C4BB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		86028FE72026558E0048C4BB /* doghero-UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doghero-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86028FE92026558E0048C4BB /* doghero_UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doghero_UnitTests.swift; sourceTree = "<group>"; };
+		86028FEB2026558E0048C4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86028FF520265DAB0048C4BB /* doghero-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doghero-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86028FF720265DAB0048C4BB /* doghero_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doghero_UITests.swift; sourceTree = "<group>"; };
+		86028FF920265DAB0048C4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864601B42026051F006ED267 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		864601B62026059E006ED267 /* MyheroesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyheroesPresenter.swift; sourceTree = "<group>"; };
+		864601B8202605AB006ED267 /* GridPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPresenter.swift; sourceTree = "<group>"; };
+		864601BA20260788006ED267 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		86BA06BB20260D8300DE7B91 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		86BA06BE2026110100DE7B91 /* MyHeroesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroesInteractor.swift; sourceTree = "<group>"; };
+		86BA06C1202615A700DE7B91 /* CardHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeroCell.swift; sourceTree = "<group>"; };
+		86BA06C520264C1800DE7B91 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		86BA06C720264E5600DE7B91 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		9B73BC09BF2146F66D9602F9 /* Pods-doghero-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-UnitTests/Pods-doghero-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A12B9C85FE1D8E629521D569 /* Pods_doghero_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doghero_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A259F186201CF66900B5164F /* doghero-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doghero-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A259F189201CF66900B5164F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A259F18E201CF66900B5164F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A259F190201CF66900B5164F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A259F193201CF66900B5164F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A259F195201CF66900B5164F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A259F19C201CF69F00B5164F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A259F19F201CF6EA00B5164F /* MyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroes.swift; sourceTree = "<group>"; };
+		A259F1A1201CF76400B5164F /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		A96352CD451F311BC54C23B8 /* Pods-doghero-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test/Pods-doghero-test.release.xcconfig"; sourceTree = "<group>"; };
+		B68A5CFE87D130D56B0160E0 /* Pods-doghero-test-doghero-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test-doghero-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test-doghero-UnitTests/Pods-doghero-test-doghero-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8AF6C49AF29D7EBE5157F0 /* Pods-doghero-test-doghero-UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test-doghero-UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test-doghero-UITests/Pods-doghero-test-doghero-UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF8DE65DC5001736BF191C72 /* Pods_doghero_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doghero_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D990CFF406DB2935FD3F3D52 /* Pods-doghero-test-doghero-UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test-doghero-UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test-doghero-UITests/Pods-doghero-test-doghero-UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE18A6EB12375FDAEE3FC966 /* Pods-doghero-test-doghero-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doghero-test-doghero-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-doghero-test-doghero-UnitTests/Pods-doghero-test-doghero-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE498081E7A46486C142B83B /* Pods_doghero_test_doghero_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doghero_test_doghero_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86028FE42026558E0048C4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0536F40D65A3AFE1D34565D8 /* Pods_doghero_UnitTests.framework in Frameworks */,
+				F5DE12171BC1FA66BC6CB080 /* Pods_doghero_test_doghero_UnitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86028FF220265DAB0048C4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCA6B0D728AEC6D0B4BAEE3 /* Pods_doghero_test_doghero_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A259F183201CF66900B5164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B538A1E8795FB3B77B32C /* Pods_doghero_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352697A4340E5BAA452B49CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12B9C85FE1D8E629521D569 /* Pods_doghero_test.framework */,
+				CF8DE65DC5001736BF191C72 /* Pods_doghero_UnitTests.framework */,
+				41F45FDE756A2D3331DE792C /* Pods_doghero_test_doghero_UnitTests.framework */,
+				FE498081E7A46486C142B83B /* Pods_doghero_test_doghero_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86028FE82026558E0048C4BB /* doghero-UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				86028FE92026558E0048C4BB /* doghero_UnitTests.swift */,
+				86028FEB2026558E0048C4BB /* Info.plist */,
+			);
+			path = "doghero-UnitTests";
+			sourceTree = "<group>";
+		};
+		86028FF620265DAB0048C4BB /* doghero-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				86028FF720265DAB0048C4BB /* doghero_UITests.swift */,
+				86028FF920265DAB0048C4BB /* Info.plist */,
+			);
+			path = "doghero-UITests";
+			sourceTree = "<group>";
+		};
+		864601AF2026046A006ED267 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				864601BA20260788006ED267 /* MainRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		864601B020260475006ED267 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				864601B42026051F006ED267 /* GridViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		864601B1202604BC006ED267 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				864601B62026059E006ED267 /* MyheroesPresenter.swift */,
+				864601B8202605AB006ED267 /* GridPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		864601B2202604C9006ED267 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				86BA06BB20260D8300DE7B91 /* Hero.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		86BA06BD202610C100DE7B91 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				86BA06BE2026110100DE7B91 /* MyHeroesInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		86BA06C02026158B00DE7B91 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				86BA06C1202615A700DE7B91 /* CardHeroCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A259F17D201CF66900B5164F = {
+			isa = PBXGroup;
+			children = (
+				A259F188201CF66900B5164F /* doghero-test */,
+				86028FE82026558E0048C4BB /* doghero-UnitTests */,
+				86028FF620265DAB0048C4BB /* doghero-UITests */,
+				A259F187201CF66900B5164F /* Products */,
+				D7B05D3C89AA3EE7F1FBD2D6 /* Pods */,
+				352697A4340E5BAA452B49CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A259F187201CF66900B5164F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A259F186201CF66900B5164F /* doghero-test.app */,
+				86028FE72026558E0048C4BB /* doghero-UnitTests.xctest */,
+				86028FF520265DAB0048C4BB /* doghero-UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A259F188201CF66900B5164F /* doghero-test */ = {
+			isa = PBXGroup;
+			children = (
+				86BA06C02026158B00DE7B91 /* Components */,
+				864601B020260475006ED267 /* ViewControllers */,
+				86BA06BD202610C100DE7B91 /* Interactors */,
+				864601B1202604BC006ED267 /* Presenters */,
+				864601B2202604C9006ED267 /* Entities */,
+				864601AF2026046A006ED267 /* Routers */,
+				A259F189201CF66900B5164F /* AppDelegate.swift */,
+				A259F18D201CF66900B5164F /* Main.storyboard */,
+				A259F190201CF66900B5164F /* Assets.xcassets */,
+				A259F192201CF66900B5164F /* LaunchScreen.storyboard */,
+				A259F195201CF66900B5164F /* Info.plist */,
+				A259F19E201CF6D000B5164F /* Api Answer */,
+				A259F19B201CF69100B5164F /* Extensions */,
+			);
+			path = "doghero-test";
+			sourceTree = "<group>";
+		};
+		A259F19B201CF69100B5164F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A259F19C201CF69F00B5164F /* UIImage.swift */,
+				86BA06C520264C1800DE7B91 /* Double.swift */,
+				86BA06C720264E5600DE7B91 /* UIView.swift */,
+				86028FE1202653AA0048C4BB /* Button.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A259F19E201CF6D000B5164F /* Api Answer */ = {
+			isa = PBXGroup;
+			children = (
+				A259F19F201CF6EA00B5164F /* MyHeroes.swift */,
+				A259F1A1201CF76400B5164F /* JSONParser.swift */,
+			);
+			path = "Api Answer";
+			sourceTree = "<group>";
+		};
+		D7B05D3C89AA3EE7F1FBD2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1454F7B37CD708A24AF0868B /* Pods-doghero-test.debug.xcconfig */,
+				A96352CD451F311BC54C23B8 /* Pods-doghero-test.release.xcconfig */,
+				9B73BC09BF2146F66D9602F9 /* Pods-doghero-UnitTests.debug.xcconfig */,
+				217C6DEDFD05CF3E3AA1CF7F /* Pods-doghero-UnitTests.release.xcconfig */,
+				B68A5CFE87D130D56B0160E0 /* Pods-doghero-test-doghero-UnitTests.debug.xcconfig */,
+				FE18A6EB12375FDAEE3FC966 /* Pods-doghero-test-doghero-UnitTests.release.xcconfig */,
+				D990CFF406DB2935FD3F3D52 /* Pods-doghero-test-doghero-UITests.debug.xcconfig */,
+				BC8AF6C49AF29D7EBE5157F0 /* Pods-doghero-test-doghero-UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86028FE62026558E0048C4BB /* doghero-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86028FEE2026558E0048C4BB /* Build configuration list for PBXNativeTarget "doghero-UnitTests" */;
+			buildPhases = (
+				76F5378644A5747B88297771 /* [CP] Check Pods Manifest.lock */,
+				86028FE32026558E0048C4BB /* Sources */,
+				86028FE42026558E0048C4BB /* Frameworks */,
+				86028FE52026558E0048C4BB /* Resources */,
+				0D3151CDB890CFA4429B66DC /* [CP] Embed Pods Frameworks */,
+				285ED3E0914358D221F5542C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86028FED2026558E0048C4BB /* PBXTargetDependency */,
+			);
+			name = "doghero-UnitTests";
+			productName = "doghero-UnitTests";
+			productReference = 86028FE72026558E0048C4BB /* doghero-UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86028FF420265DAB0048C4BB /* doghero-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86028FFE20265DAB0048C4BB /* Build configuration list for PBXNativeTarget "doghero-UITests" */;
+			buildPhases = (
+				AEBC1CDE55BF5F01BB422737 /* [CP] Check Pods Manifest.lock */,
+				86028FF120265DAB0048C4BB /* Sources */,
+				86028FF220265DAB0048C4BB /* Frameworks */,
+				86028FF320265DAB0048C4BB /* Resources */,
+				464AEEFFDCF0ED55DF5FDBB3 /* [CP] Embed Pods Frameworks */,
+				BD66ECC030A445C99F5EF72B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86028FFB20265DAB0048C4BB /* PBXTargetDependency */,
+			);
+			name = "doghero-UITests";
+			productName = "doghero-UITests";
+			productReference = 86028FF520265DAB0048C4BB /* doghero-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A259F185201CF66900B5164F /* doghero-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A259F198201CF66900B5164F /* Build configuration list for PBXNativeTarget "doghero-test" */;
+			buildPhases = (
+				625CA5A180AB26BEA773CA82 /* [CP] Check Pods Manifest.lock */,
+				A259F182201CF66900B5164F /* Sources */,
+				A259F183201CF66900B5164F /* Frameworks */,
+				A259F184201CF66900B5164F /* Resources */,
+				378FD953EC64D09BC3F6ECFA /* [CP] Embed Pods Frameworks */,
+				8349F72C3F9DECE2E8B5904A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doghero-test";
+			productName = "doghero-test";
+			productReference = A259F186201CF66900B5164F /* doghero-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A259F17E201CF66900B5164F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = doghero;
+				TargetAttributes = {
+					86028FE62026558E0048C4BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A259F185201CF66900B5164F;
+					};
+					86028FF420265DAB0048C4BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A259F185201CF66900B5164F;
+					};
+					A259F185201CF66900B5164F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A259F181201CF66900B5164F /* Build configuration list for PBXProject "doghero-test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A259F17D201CF66900B5164F;
+			productRefGroup = A259F187201CF66900B5164F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A259F185201CF66900B5164F /* doghero-test */,
+				86028FE62026558E0048C4BB /* doghero-UnitTests */,
+				86028FF420265DAB0048C4BB /* doghero-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86028FE52026558E0048C4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86028FF320265DAB0048C4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A259F184201CF66900B5164F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A259F194201CF66900B5164F /* LaunchScreen.storyboard in Resources */,
+				A259F191201CF66900B5164F /* Assets.xcassets in Resources */,
+				A259F18F201CF66900B5164F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3151CDB890CFA4429B66DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UnitTests/Pods-doghero-test-doghero-UnitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UnitTests/Pods-doghero-test-doghero-UnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285ED3E0914358D221F5542C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UnitTests/Pods-doghero-test-doghero-UnitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378FD953EC64D09BC3F6ECFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test/Pods-doghero-test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test/Pods-doghero-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		464AEEFFDCF0ED55DF5FDBB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UITests/Pods-doghero-test-doghero-UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UITests/Pods-doghero-test-doghero-UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		625CA5A180AB26BEA773CA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doghero-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F5378644A5747B88297771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doghero-test-doghero-UnitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8349F72C3F9DECE2E8B5904A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test/Pods-doghero-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBC1CDE55BF5F01BB422737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doghero-test-doghero-UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD66ECC030A445C99F5EF72B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-doghero-test-doghero-UITests/Pods-doghero-test-doghero-UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86028FE32026558E0048C4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86028FEA2026558E0048C4BB /* doghero_UnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86028FF120265DAB0048C4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86028FF820265DAB0048C4BB /* doghero_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A259F182201CF66900B5164F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BA06C820264E5600DE7B91 /* UIView.swift in Sources */,
+				864601B9202605AB006ED267 /* GridPresenter.swift in Sources */,
+				864601BB20260788006ED267 /* MainRouter.swift in Sources */,
+				86BA06BC20260D8300DE7B91 /* Hero.swift in Sources */,
+				864601B72026059E006ED267 /* MyheroesPresenter.swift in Sources */,
+				86BA06C2202615A700DE7B91 /* CardHeroCell.swift in Sources */,
+				86BA06BF2026110100DE7B91 /* MyHeroesInteractor.swift in Sources */,
+				86028FE2202653AA0048C4BB /* Button.swift in Sources */,
+				A259F19D201CF69F00B5164F /* UIImage.swift in Sources */,
+				864601B52026051F006ED267 /* GridViewController.swift in Sources */,
+				A259F1A2201CF76400B5164F /* JSONParser.swift in Sources */,
+				A259F1A0201CF6EA00B5164F /* MyHeroes.swift in Sources */,
+				86BA06C620264C1800DE7B91 /* Double.swift in Sources */,
+				A259F18A201CF66900B5164F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86028FED2026558E0048C4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A259F185201CF66900B5164F /* doghero-test */;
+			targetProxy = 86028FEC2026558E0048C4BB /* PBXContainerItemProxy */;
+		};
+		86028FFB20265DAB0048C4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A259F185201CF66900B5164F /* doghero-test */;
+			targetProxy = 86028FFA20265DAB0048C4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A259F18D201CF66900B5164F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A259F18E201CF66900B5164F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A259F192201CF66900B5164F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A259F193201CF66900B5164F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86028FEF2026558E0048C4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68A5CFE87D130D56B0160E0 /* Pods-doghero-test-doghero-UnitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "doghero-UnitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test.doghero-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doghero-test.app/doghero-test";
+			};
+			name = Debug;
+		};
+		86028FF02026558E0048C4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE18A6EB12375FDAEE3FC966 /* Pods-doghero-test-doghero-UnitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "doghero-UnitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test.doghero-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doghero-test.app/doghero-test";
+			};
+			name = Release;
+		};
+		86028FFC20265DAB0048C4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D990CFF406DB2935FD3F3D52 /* Pods-doghero-test-doghero-UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "doghero-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test.doghero-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "doghero-test";
+			};
+			name = Debug;
+		};
+		86028FFD20265DAB0048C4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8AF6C49AF29D7EBE5157F0 /* Pods-doghero-test-doghero-UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "doghero-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test.doghero-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "doghero-test";
+			};
+			name = Release;
+		};
+		A259F196201CF66900B5164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A259F197201CF66900B5164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A259F199201CF66900B5164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1454F7B37CD708A24AF0868B /* Pods-doghero-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "doghero-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A259F19A201CF66900B5164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96352CD451F311BC54C23B8 /* Pods-doghero-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "doghero-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.doghero.doghero-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86028FEE2026558E0048C4BB /* Build configuration list for PBXNativeTarget "doghero-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86028FEF2026558E0048C4BB /* Debug */,
+				86028FF02026558E0048C4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86028FFE20265DAB0048C4BB /* Build configuration list for PBXNativeTarget "doghero-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86028FFC20265DAB0048C4BB /* Debug */,
+				86028FFD20265DAB0048C4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A259F181201CF66900B5164F /* Build configuration list for PBXProject "doghero-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A259F196201CF66900B5164F /* Debug */,
+				A259F197201CF66900B5164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A259F198201CF66900B5164F /* Build configuration list for PBXNativeTarget "doghero-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A259F199201CF66900B5164F /* Debug */,
+				A259F19A201CF66900B5164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A259F17E201CF66900B5164F /* Project object */;
+}
